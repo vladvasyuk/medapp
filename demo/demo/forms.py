@@ -27,6 +27,17 @@ MEDIA_CHOICES = (
 )
 
 
+
+
+from django.forms import ModelForm
+from .models import Person
+
+# Create the form class.
+class DiagForm(ModelForm):
+    class Meta:
+        model = Person
+        fields = ['diagnosis']
+
 class ContactForm(TestForm):
     pass
 

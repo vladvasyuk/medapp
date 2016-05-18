@@ -2803,3 +2803,479 @@
 [0517/105158:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
 [CEF Python] App: Renderer: OnContextReleased()
 [CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=57080 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="3812.1.1148553055\742874799" /prefetch:673131151
+[0518/055021:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055021:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055021:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055021:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055021:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/055029:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=50729 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="3668.1.1405153036\559641540" /prefetch:673131151
+[0518/055536:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055536:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055536:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055536:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055536:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/055547:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055547:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055547:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055547:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/055547:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/055603:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=53749 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="4744.1.1703501787\1358116253" /prefetch:673131151
+[0518/060214:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060214:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060214:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060214:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060214:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/060224:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060224:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060224:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060224:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060224:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/060236:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=56093 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="3120.1.519639874\1477274433" /prefetch:673131151
+[0518/060339:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060339:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060339:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060339:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060339:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/060349:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060349:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060349:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060349:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/060349:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/063230:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=60466 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="6112.1.775686\584496480" /prefetch:673131151
+[0518/063238:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063238:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063238:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063238:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063238:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/063248:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063248:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063248:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063248:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/063248:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=63845 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[0518/065014:ERROR_REPORT:context.cc(287)] Check failed: OnInitThread(). 
+[0518/065014:ERROR_REPORT:context.cc(355)] Check failed: CEF_CURRENTLY_ON(content::BrowserThread::UI). 
+[0518/065014:ERROR_REPORT:print_job_manager.cc(81)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[0518/065014:ERROR_REPORT:print_job_manager.cc(92)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=60402 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[0518/065032:ERROR_REPORT:context.cc(287)] Check failed: OnInitThread(). 
+[0518/065032:ERROR_REPORT:context.cc(355)] Check failed: CEF_CURRENTLY_ON(content::BrowserThread::UI). 
+[0518/065032:ERROR_REPORT:print_job_manager.cc(81)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[0518/065032:ERROR_REPORT:print_job_manager.cc(92)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=56988 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[0518/065042:ERROR_REPORT:context.cc(287)] Check failed: OnInitThread(). 
+[0518/065042:ERROR_REPORT:context.cc(355)] Check failed: CEF_CURRENTLY_ON(content::BrowserThread::UI). 
+[0518/065042:ERROR_REPORT:print_job_manager.cc(81)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[0518/065042:ERROR_REPORT:print_job_manager.cc(92)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=58935 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[0518/065054:ERROR_REPORT:context.cc(287)] Check failed: OnInitThread(). 
+[0518/065054:ERROR_REPORT:context.cc(355)] Check failed: CEF_CURRENTLY_ON(content::BrowserThread::UI). 
+[0518/065054:ERROR_REPORT:print_job_manager.cc(81)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[0518/065054:ERROR_REPORT:print_job_manager.cc(92)] Check failed: content::BrowserThread::CurrentlyOn(content::BrowserThread::UI). 
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=50936 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="5012.1.221891417\240230405" /prefetch:673131151
+[0518/065403:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065403:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065403:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065403:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065403:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/065414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/065414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/065604:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/074304:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=54426 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="8324.1.544720655\2102640296" /prefetch:673131151
+[0518/074317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/074327:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074327:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074327:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074327:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074327:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/074426:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()
+[CEF Python] Initialize() called
+[CEF Python] CefExecuteProcess(): exitCode = -1
+[CEF Python] CefInitialize()
+[CEF Python] App_OnBeforeCommandLineProcessing_BrowserProcess()
+[CEF Python] App: Command line string for the browser process: python --browser-subprocess-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --lang=en-US --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --enable-release-dcheck --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=62646 --no-sandbox run.py
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CreateBrowserSync() called
+[CEF Python] navigateUrl: http://127.0.0.1:5423
+[CEF Python] CefBrowser::CreateBrowserSync()
+[CEF Python] App: Browser: OnAfterCreated(): auto_zooming = system_dpi
+
+[CEF Python] App: Browser: SetBrowserDpiSettings: DPI=96 zoom=0
+
+[CEF Python] GetPyBrowser(): creating new PyBrowser, browserId=1
+[CEF Python] BrowserProcessHandler_OnBeforeChildProcessLaunch()
+[CEF Python] CefBrowser::CreateBrowserSync() succeeded
+[CEF Python] App: Command line string for the renderer process: "C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --type=renderer --no-sandbox --lang=en-US --enable-release-dcheck --lang=en-US --locales-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --log-file="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Vladislav\Documents\DEV\medapp\py-dist\python-2.7.10\lib\site-packages\cefpython3" --channel="5032.1.1050213203\648085939" /prefetch:673131151
+[0518/074429:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074429:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074429:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074429:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074429:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/074439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[0518/074516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[0518/074516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(263)] Error fetching PAC URL from DHCP: 2
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnContextCreated()
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextReleased
+[CEF Python] V8ContextHandler_OnContextReleased()
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] App: Browser: OnProcessMessageReceived(): RemovePythonCallbacksForFrame
+[CEF Python] App: Browser: OnProcessMessageReceived(): OnContextCreated
+[CEF Python] V8ContextHandler_OnContextCreated()
+[CEF Python] CloseBrowser: releasing shared request context
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] CefBrowser::CloseBrowser(False)
+[CEF Python] del g_pyFrames[1#1]
+[CEF Python] del g_pyBrowsers[1]
+[CEF Python] Shutdown()
+[0518/074524:ERROR_REPORT:browser_main.cc(126)] Check failed: browser_contexts_.empty(). 
+[CEF Python] App: Renderer: OnContextReleased()
+[CEF Python] App: Renderer: OnBrowserDestroyed()

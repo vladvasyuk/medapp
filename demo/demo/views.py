@@ -7,9 +7,12 @@ from django.db.models.fields.files import FieldFile
 from django.views.generic import FormView
 from django.views.generic.base import TemplateView
 from django.contrib import messages
+from django.http import HttpResponseRedirect
 from random import choice
 
-from .forms import ContactForm, FilesForm, ContactFormSet
+from .models import Person
+
+from .forms import ContactForm, FilesForm, ContactFormSet, DiagForm
 
 
 # http://yuji.wordpress.com/2013/01/30/django-form-field-in-initial-data-requires-a-fieldfile-instance/
@@ -20,44 +23,26 @@ class FakeField(object):
 fieldfile = FieldFile(None, FakeField, 'dummy.txt')
 
 
+def write_diag(request):
+    form = DiagForm(request.POST)
+    Person.objects.filter(pk=request.POST.get('person')).update(diagnosis=request.POST.get('diagnosis'))
+    return HttpResponseRedirect('/?person={}&diag_success=1'.format(request.POST.get('person')))
+
+
 class HomePageView(TemplateView):
     template_name = 'demo/home.html'
 
     def get_context_data(self, **kwargs):
         context = super(HomePageView, self).get_context_data(**kwargs)
-        lines = []
-        lastnames = [
-            'Петров',
-            'Васечкин',
-            'Цветочкин',
-            'Клюковкин'
-        ]
-        firstnames = [
-            'Иннокентий',
-            'Кондратий',
-            'Иосиф',
-            'Афанасий'
-        ]
-        middlenames = [
-            'Александрович',
-            'Антонович',
-            'Колевич',
-            'Владиславович'
-        ]
-        for i in range(200):
-            lines.append(('{} {} {}').format(*map(choice, (lastnames, firstnames, middlenames))))
-        paginator = Paginator(lines, 10)
-        page = self.request.GET.get('page')
-        try:
-            show_lines = paginator.page(page)
-        except PageNotAnInteger:
-            # If page is not an integer, deliver first page.
-            show_lines = paginator.page(1)
-        except EmptyPage:
-            # If page is out of range (e.g. 9999), deliver last page of results.
-            show_lines = paginator.page(paginator.num_pages)
-        context['lines'] = show_lines
-        # messages.info(self.request, 'hello http://example.com')
+
+        context['persons'] = Person.objects.all()
+        context['diag_success'] = self.request.GET.get('diag_success')
+        person = self.request.GET.get('person')
+        context['form'] = DiagForm()
+        if person:
+            context['person'] = Person.objects.get(pk=person)
+        else:
+            context['person'] = None
         return context
 
 

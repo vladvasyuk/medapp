@@ -4,10 +4,11 @@ from __future__ import unicode_literals
 from django.conf.urls import patterns, url
 
 from .views import HomePageView, FormHorizontalView, FormInlineView, PaginationView, FormWithFilesView, \
-    DefaultFormView, MiscView, DefaultFormsetView, DefaultFormByFieldView
+    DefaultFormView, MiscView, DefaultFormsetView, DefaultFormByFieldView, write_diag
 
 urlpatterns = [
     url(r'^$', HomePageView.as_view(), name='home'),
+    url(r'^write_diag$', write_diag, name='home'),
     url(r'^formset$', DefaultFormsetView.as_view(), name='formset_default'),
     url(r'^form$', DefaultFormView.as_view(), name='form_default'),
     url(r'^form_by_field$', DefaultFormByFieldView.as_view(), name='form_by_field'),

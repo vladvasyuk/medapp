@@ -4,36 +4,113 @@
 
 
 {% block content %}
+
+<script>
+$(function () {
+    $('#diagSubmit').click(function (e) {
+        $("#diagForm").submit();
+    });
+});
+</script>
+
 <div>
 
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Анализ</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Пациенты</a></li>
-  </ul>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Анализ</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Пациенты</a></li>
+    </ul>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home" style="padding: 10px 0;">
-        <form>
-            <div class="form-inline">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Поиск...">
-                    <button type="submit" class="btn btn-primary">+ пациент</button>
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+        <div role="tabpanel" class="tab-pane active" id="home" style="padding: 10px 0;">
+            {% if diag_success %}
+                <div class="alert alert-success" role="alert">Диагноз успешно записан!</div>
+            {% endif %}
+            <h4>Пациент</h4>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {% if person %}
+                        <strong>ФИО:</strong> {{ person.last_name }} {{ person.first_name }} {{ person.middle_name }}<br />
+                        <strong>Возраст:</strong> {{ person.age }} <br />
+                    {% else %}
+                        <strong>ФИО:</strong> <em>пациент не выбран</em><br />
+                        <strong>Возраст:</strong> <em>пациент не выбран</em> <br />
+                    {% endif %}
                 </div>
             </div>
-        </form>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPersonModal">
+              Выбрать пациента
+            </button>
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#putDiagnosisModal">
+              Поставить диагноз
+            </button>
 
-        <table class="table table-striped table-bordered" style="width: 50%; margin: 10px 0;">
-            {% for line in lines %}
+
+            <!-- Modal -->
+            <div class="modal fade" id="selectPersonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Список пациентов</h4>
+                  </div>
+                  <div class="modal-body">
+                        {% for person in persons %}
+                            <p><a href="?person={{ person.id }}">{{ person.last_name }} {{ person.first_name }} {{ person.middle_name }}</a></p>
+                        {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="putDiagnosisModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Установить диагноз</h4>
+                    </div>
+                   <div class="modal-body">
+                        {% if person %}
+                            <form role="form"  method="post" id="diagForm" action="/write_diag">
+                                {% csrf_token %}
+                                <input type="hidden" name="person" value="{{ person.id }}" /> 
+                                <textarea class="form-control" rows="3" name="diagnosis">{{ person.diagnosis }}</textarea>
+                            </form>
+                            {% else %}
+                            <p>Сначала необходимо выбрать пациента</p>
+                        {% endif %}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary" id="diagSubmit">Сохранить</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+            <form>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Поиск...">
+                        <button type="submit" class="btn btn-primary">+ пациент</button>
+                    </div>
+                </div>
+            </form>
+
+            <table class="table table-striped table-bordered" style="width: 50%; margin: 10px 0;">
+                {% for line in lines %}
                 <tr>
                     <td>{{ line }}</td>
                 </tr>
-            {% endfor %}
-        </table>
+                {% endfor %}
+            </table>
+        </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="profile">Ещё какой-то контент</div>
-  </div>
 
 </div>
 {% endblock %}
