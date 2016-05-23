@@ -1,0 +1,22 @@
+<div class="modal fade" id="putDiagnosisModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Установить диагноз</h4>
+            </div>
+            <div class="modal-body">
+                <form role="form"  method="post" action="/write_diag" id="putDiagForm">
+                    {% csrf_token %}
+                    <input type="hidden" name="id" /> 
+                    <textarea class="form-control" rows="5" name="diagnosis"></textarea>
+                </form>
+                <p id="diagModalEmpty">Сначала необходимо выбрать пациента</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary" id="diagSubmit">Сохранить</button>
+            </div>
+        </div>
+    </div>
+</div>

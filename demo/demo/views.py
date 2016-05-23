@@ -7,8 +7,10 @@ from django.db.models.fields.files import FieldFile
 from django.views.generic import FormView
 from django.views.generic.base import TemplateView
 from django.contrib import messages
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from random import choice
+from django.core import serializers
+import json
 
 from .models import Person
 
@@ -24,10 +26,35 @@ fieldfile = FieldFile(None, FakeField, 'dummy.txt')
 
 
 def write_diag(request):
-    form = DiagForm(request.POST)
-    Person.objects.filter(pk=request.POST.get('person')).update(diagnosis=request.POST.get('diagnosis'))
-    return HttpResponseRedirect('/?person={}&diag_success=1'.format(request.POST.get('person')))
+    Person.objects.filter(pk=request.POST.get('id')).update(diagnosis=request.POST.get('diagnosis'))
+    return HttpResponse(status=201)
 
+def write_patient(request):
+    patient = {
+        'first_name': request.POST.get('first_name'),
+        'last_name': request.POST.get('last_name'),
+        'middle_name': request.POST.get('middle_name'),
+        'age': request.POST.get('age'),
+        'passport': request.POST.get('passport'),
+        'diagnosis': request.POST.get('diagnosis')
+    }
+    if request.POST.get('id'):
+        Person.objects.filter(pk=request.POST.get('id')).update(**patient)
+    else:
+        Person.objects.create(**patient)
+
+    return HttpResponse(status=201)
+
+def get_patient(request):
+    obj = Person.objects.get(pk=request.GET.get('id'))
+    data = serializers.serialize('json', [obj,])
+    struct = json.loads(data)
+    data = json.dumps(struct[0])
+    return HttpResponse(data, content_type='application/json')
+
+def remove_patient(request):
+    Person.objects.get(pk=request.GET.get('id')).delete()
+    return HttpResponse(status=201)
 
 class HomePageView(TemplateView):
     template_name = 'demo/home.html'

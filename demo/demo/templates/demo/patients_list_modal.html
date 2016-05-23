@@ -1,0 +1,26 @@
+<!-- Modal -->
+<div class="modal fade" id="selectPersonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Список пациентов</h4>
+      </div>
+      <div class="modal-body">
+
+        <input type="text" class="form-control" style="width: 100%; margin-bottom: 15px;" id="modalPatientsSearch" placeholder="Поиск...">
+        <table class="table" id="modalPatients">
+
+        {% for person in persons %}
+            <tr><td>{{ person.last_name }} {{ person.first_name }} {{ person.middle_name }}</td>
+            <td width="40">
+              <button type="button" class="btn btn-sm btn-default selectPatientBtn" data-id="{{ person.id }}">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+              </button>
+            </td></tr>
+        {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

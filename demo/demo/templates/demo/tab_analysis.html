@@ -1,0 +1,119 @@
+{% if diag_success %}
+    <div class="alert alert-success" role="alert">Диагноз успешно записан!</div>
+{% endif %}
+<h4>Пациент</h4>
+<p id="patientInfo"><em>Пациент не выбран</em></p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Результаты обследования</h3>
+  </div>
+  <div class="panel-body" style="height: 550px;">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked" id="analysisTabs">
+            <li class="active"><a href="#">Статистические показатели</a></li>
+            <li><a href="#">Геометрические показатели</a></li>
+            <li><a href="#">Спектральные показатели</a></li>
+          </ul>
+          <div id="analysisParams">
+            <div class="active">
+               <table class="table table-bordered table-striped" style="margin-top: 15px;">
+                  <tr>
+                     <td width="100px">SDNN, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>CV, %</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>MD, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>RMSSD, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>NN50</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>pNN50</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>RRср, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>RRмакс, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>RRмин, мс</td>
+                     <td>...</td>
+                  </tr>
+               </table>
+            </div>
+            <div>
+               <table class="table table-bordered table-striped" style="margin-top: 15px;">
+                  <tr>
+                     <td width="100px">MO, мс</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>AMo, %</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>BP, мс</td>
+                     <td>...</td>
+                  </tr>
+               </table>
+            </div>
+            <div>
+               <table class="table table-bordered table-striped" style="margin-top: 15px;">
+                  <tr>
+                     <td width="100px">HF, мс2</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>LF, мс2</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>VLF, мс2</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>LF/HF</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>LF, %</td>
+                     <td>...</td>
+                  </tr>
+                  <tr>
+                     <td>HF, %</td>
+                     <td>...</td>
+                  </tr>
+               </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9" id="analysisContent">
+          <div class="active">Тут графики 1</div>
+          <div>Тут графики 2</div>
+          <div>Тут графики 3</div>
+        </div>
+        <div class="clearfix visible-lg"></div>
+      </div>
+ </div>
+</div>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#selectPersonModal">
+  Выбрать пациента
+</button>
+<button type="button" class="btn btn-default" data-toggle="modal" data-target="#putDiagnosisModal">
+  Поставить диагноз
+</button>

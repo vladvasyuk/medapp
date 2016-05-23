@@ -1,0 +1,40 @@
+<h4>Список пациентов</h4>
+<div style="margin-bottom: 10px;">
+    <div class="row">
+        <div class="col-xs-9">
+            <input type="text" class="form-control" style="width: 100%;" id="patientsSearch" placeholder="Поиск...">
+        </div>
+        <div class="col-xs-3">
+            <button class="btn btn-success" data-toggle="modal" data-target="#editPatientModal" style="width: 100%;">Добавить пациента</button>
+        </div>
+    </div>
+</div>
+
+<table class="table table-striped" id="patientsList">
+<thead>
+    <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Возраст</th>
+        <th width="90"></th>
+    </tr>
+</thead>
+{% for person in persons %}
+    <tr class="patient">
+        <td><strong>{{ person.last_name }}</strong></td>
+        <td>{{ person.first_name }}</td>
+        <td>{{ person.middle_name }}</td>
+        <td>{{ person.age }}</td>
+        <td>
+            <button type="button" class="btn btn-sm btn-default medapp-btn-edit" data-toggle="modal" data-target="#editPatientModal" data-id="{{ person.id }}">
+              <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            </button>
+
+            <button type="button" class="btn btn-sm btn-default medapp-btn-remove removePatientBtn" data-id="{{ person.id }}">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </button>
+        </td>
+    </tr>
+{% endfor %}
+</table>
